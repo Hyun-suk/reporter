@@ -1,0 +1,91 @@
+.navbar-brand {
+}
+
+#searchbar {
+  position: absolute;
+  z-index: 2;
+  background-color: snow;
+  height: 40px;
+  width: 30rem;
+  top: 330px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  font-size: 3rem;
+
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: normal;
+  text-decoration: none solid rgb(160, 160, 160);
+  text-align: start;
+  text-indent: 0px;
+  text-transform: none;
+  vertical-align: baseline;
+  white-space: normal;
+  word-spacing: 0px;
+
+  background-attachment: scroll;
+  background-position: 12px 12px;
+
+  border-collapse: separate;
+  border-spacing: 0px 0px;
+  table-layout: auto;
+
+  /* Effects */
+  transform: none;
+  transition: all 0s ease 0s;
+  text-overflow: clip;
+  word-wrap: normal;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 10px 0px, rgba(0, 0, 0, 0.35) 0px 1px 4px 0px;
+  border-radius: 6px;
+}
+
+/* Tablet and bigger */
+@media ( min-width: 768px ) {
+    .grid-divider {
+        position: relative;
+        padding: 0;
+    }
+    .grid-divider>[class*='col-'] {
+        position: static;
+    }
+    .grid-divider>[class*='col-']:nth-child(n+2):before {
+        content: "";
+        border-left: 1px solid #DDD;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+    }
+    .col-padding {
+        padding: 0 15px;
+    }
+}
+
+.list-cust .list-group-item:first-child {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+.list-cust .list-group-item:last-child {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.list-cust .list-group-item {
+   border-right:0px;
+   border-left:0px;
+}
+
+.header {
+  background-color: black;
+  color: snow;
+  font-family: 'Black Han Sans', sans-serif;
+  z-index: 1;
+}
+
+.content {
+  margin-top: 100px;
+}

@@ -1,0 +1,131 @@
+.article-header {
+  background-color: rgb(10, 10, 10) !important;
+  color: snow;
+  font-family: 'Black Han Sans', sans-serif;
+  z-index: 1;
+}
+
+.home-header {
+  background-repeat: no-repeat;
+  height: 350px;
+  color: snow;
+  font-family: 'Black Han Sans', sans-serif;
+  z-index: 1;
+}
+
+.brand {
+  color: snow;
+  font-size: 4em;
+}
+
+.toggler {
+  color: snow;
+}
+
+.favorite {
+  color: rgb(255, 89, 89);
+  font-size: 2em;
+  position: relative;
+  display: inline-block;
+}
+
+a:hover > .favorite {
+  color: rgb(154, 52, 52);
+  text-decoration: none;
+  font-weight: none
+}
+
+.favorite .tooltiptext {
+  visibility: hidden;
+  width: 80px;
+  background-color: snow;
+  color: black;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  font-size: 5px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  top: 120%;
+  left: 50%;
+  margin-left: -40px;
+}
+
+.favorite .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent snow transparent;
+}
+
+.favorite:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+.plus-reporter {
+  color: snow;
+  font-size: 2em;
+  position: relative;
+  display: inline-block;
+}
+
+a:hover > .plus-reporter {
+  color: rgb(185, 185, 185);
+  text-decoration: none;
+  font-weight: none
+}
+
+.plus-reporter .tooltiptext {
+  visibility: hidden;
+  width: 80px;
+  background-color: snow;
+  color: black;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  font-size: 5px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  top: 120%;
+  left: 50%;
+  margin-left: -40px;
+}
+
+.plus-reporter .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent snow transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.plus-reporter:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+.account {
+  color: snow;
+}
+
+.topright {
+  font-family: 'Nanum Gothic', sans-serif;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+  color: snow;
+}
